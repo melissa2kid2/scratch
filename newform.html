@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+         h1 {
+            color: red;
+            font-size: 50px;
+            padding: 10px;
+          }
+           form{
+             display: flex;
+             justify-content: center;
+             flex direction:column ;
+          }
+           form > input{;
+             width: 50%;
+            height: 40px;
+            outline: none;
+            margin: 5px;
+            border: 1px solid red;
+            border-radius: 10px;
+        }
+        form > input::placeholder{
+         padding: 10px;
+         color:orangered;
+        }
+        label{
+            color:purple;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        button{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            padding: 20px;
+            outline: none;
+            border: 1px solid blue;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>LOG IN FORM</h1>
+        <form>
+            <label for="username">username</label>
+            <input type="text"placeholder="username">
+            <label for="password">password</label><br>
+            <input type="password"placeholder="*******">
+            <button>submit</button>
+        </form>
+    </body>
+</html>
