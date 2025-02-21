@@ -43,16 +43,16 @@
             padding: 10px;
         }
         button{
-            width: 50%;
+            width: 20%;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 40px;
+            height: 15px;
             padding: 20px;
             outline: none;
             border: 1px solid purple;
-            border-radius: 30px;
-            margin-top: 10px;
+            border-radius: 10px;
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -74,6 +74,13 @@
     <script>
         function myfunction(){
          alert("you have already being registered");
+            <script>
+          function changebackground(){
+            document.body.style.background="purple"
+          }
+        </script>
+        <div id="one">hellow world</div>
+        <button onclick="changebackground()">click me</button>
         }
     </script>
 </body>
