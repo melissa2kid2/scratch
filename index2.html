@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>hellow world</h1>
+<h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">programming is good</h1>
+<script>
+function mouseOver() {
+  document.getElementById("demo").style.color = "purple";
+}
+function mouseOut() {
+  document.getElementById("demo").style.color = "yellow";
+}
+  function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+<button onclick="myFunction()">Click me</button>
+</body>
+</html>
